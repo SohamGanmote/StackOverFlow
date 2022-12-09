@@ -1,0 +1,33 @@
+.Users {
+  margin-left: 520px;
+  padding-top: 70px;
+  text-align: left;
+}
+.userDiv {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.user {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  font-weight: 500;
+}
+.userProfile {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 20px;
+  padding: 5px;
+}

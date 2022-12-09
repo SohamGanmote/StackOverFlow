@@ -1,0 +1,56 @@
+.editProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+  background-color: rgb(235, 235, 235);
+}
+.userProfile {
+  padding: 10px;
+  margin: 15px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userProfile img {
+  width: 100px;
+}
+.currentProfile hr {
+  margin-top: 20px;
+  padding: 0px 10px;
+}
+.currentProfile {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+}
+.editProfileForm {
+  margin-top: 10px;
+  text-align: left;
+}
+.editProfileForm label,
+.editProfileForm input {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.editProfileForm label {
+  font-weight: bolder;
+}
+.editProfileForm input {
+  width: 70%;
+  padding: 0px 5px;
+  height: 40px;
+}
+.editProfileForm button {
+  height: 40px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+}

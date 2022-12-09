@@ -1,0 +1,38 @@
+.sidebar {
+  width: 500px;
+  height: 95vh;
+  text-align: right;
+  padding-top: 20px;
+  border-right: 1px solid black;
+  position: fixed;
+}
+.sidebar p {
+  color: rgb(71, 71, 71);
+  font-size: 15px;
+  margin: 5px;
+  margin-right: 75px;
+  margin-top: 10px;
+}
+.sidButton {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  padding: 10px 20px;
+  width: 150px;
+  margin-top: 5px;
+}
+.sidButton:hover {
+  background-color: rgb(224, 224, 224);
+}
+.selected {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  color: rgb(31, 31, 31);
+  background-color: rgb(224, 224, 224);
+  padding: 10px 20px;
+  width: 150px;
+  border-right: 4px solid #ef9a53;
+  margin-top: 5px;
+}

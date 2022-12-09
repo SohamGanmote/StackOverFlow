@@ -1,0 +1,25 @@
+.TageCard {
+  padding: 0px !important;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.card {
+  border: 1px solid rgb(189, 188, 188);
+  width: 300px;
+  margin-right: 20px;
+  padding: 20px 10px;
+  width: 300px;
+}
+.card p {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.card h4 {
+  color: #409cdd;
+  background-color: #d7efff;
+  display: inline;
+  padding: 2px 4px;
+}

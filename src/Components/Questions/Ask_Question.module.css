@@ -1,0 +1,33 @@
+.askQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+  background-color: rgb(235, 235, 235);
+}
+.addNewQuestion {
+  padding: 20px 15px;
+}
+.addNewQuestion label {
+  font-size: 13px;
+}
+.addNewQuestion input {
+  width: 1000px;
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.btn {
+  width: 200px;
+  height: 35px;
+  margin-top: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #2d8dfc;
+}
+.btn:hover {
+  background-color: #0077ff;
+}

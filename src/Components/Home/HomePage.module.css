@@ -1,0 +1,34 @@
+.homePage {
+  margin-left: 520px;
+  padding-top: 70px;
+  text-align: left;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #2d8dfc;
+  height: 40px;
+  padding: 8px 15px;
+  font-size: 18px;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #0077ff;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.blog {
+  margin-top: 80px;
+  margin-left: 30px;
+  text-align: left;
+}

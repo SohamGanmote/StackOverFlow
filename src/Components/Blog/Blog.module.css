@@ -1,0 +1,43 @@
+.card,
+.tags {
+  width: 300px;
+  box-shadow: #d1d1d160 0px 8px 24px;
+}
+.card h4 {
+  border: 1px solid #f2d388;
+  padding: 15px;
+  background-color: #fff5d7;
+}
+.card li {
+  font-size: 13px;
+}
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.card ul {
+  border: 1px solid #f2d388;
+  padding: 10px 40px;
+  background-color: #fff8e4;
+}
+.tags {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tags h4 {
+  border: 1px solid rgb(189, 189, 189);
+  padding: 15px;
+  background-color: rgb(245, 245, 245);
+}
+.tags div {
+  padding: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  line-height: 30px;
+}
+.tags div span {
+  color: #409cdd;
+  background-color: #d7efff;
+  padding: 2px 4px;
+  font-size: 13px;
+  margin: 5px;
+}

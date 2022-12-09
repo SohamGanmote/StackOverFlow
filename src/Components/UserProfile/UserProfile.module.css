@@ -1,0 +1,83 @@
+.profile {
+  margin-left: 520px;
+  padding-top: 70px;
+  text-align: left;
+}
+.profileEditAndPhoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profileEditAndPhoto button,
+.btnFix {
+  width: 150px;
+  margin-top: 20px;
+}
+.profilePhoto {
+  height: 140px;
+  width: 140px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profilePhoto img {
+  width: 100px;
+}
+.profileInfo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.profileInfo p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.profile hr {
+  margin: 20px 0px;
+  margin-right: 20px;
+}
+.editBtn {
+  margin: 0px 20px;
+  padding: 5px 10px;
+  background-color: #c5e5ff;
+  border: 1px solid #62b8ff;
+  border-radius: 3px;
+}
+.editBtn:hover {
+  background-color: #aad6fa;
+}
+.instagramLink {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  height: 35px;
+  margin-top: 13px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.instagramLink:hover {
+  background: linear-gradient(
+    45deg,
+    #3955e4,
+    #2f27d3,
+    #7d27b6,
+    #b32073,
+    #df1a5c,
+    #fc0000
+  );
+}
+.tags {
+  background: #c4e4ff;
+  color: #2e9bf5;
+  padding: 5px 10px;
+  margin: 0px 10px;
+}

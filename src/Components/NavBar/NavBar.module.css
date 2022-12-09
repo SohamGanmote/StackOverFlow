@@ -1,0 +1,81 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #fcfcfc;
+  border-bottom: 2px solid #cecece;
+}
+.nav img {
+  width: 200px;
+  padding: 8px 15px;
+  margin-right: 10px;
+}
+.nav img:hover {
+  background-color: rgb(224, 224, 224);
+}
+.nav button {
+  font-size: 15px;
+  margin: 0px 5px;
+}
+.nav form {
+  width: 40%;
+  margin: 0px 10px;
+  margin-right: 15px;
+}
+.nav form input {
+  width: 100%;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  height: 30px;
+}
+.navBtn {
+  border: none;
+  background-color: transparent;
+  color: gray;
+  padding: 10px 20px;
+}
+.navBtn:hover {
+  color: rgb(102, 102, 102);
+  background-color: rgb(224, 224, 224);
+  border-radius: 50px;
+}
+.login {
+  background-color: #c5e5ff;
+  border: 1px solid #62b8ff;
+  padding: 5px 15px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 0px 10px !important;
+}
+.login:hover {
+  background-color: #aad6fa;
+}
+
+.profile {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(161, 161, 161);
+}
+.side {
+  position: absolute;
+  top: 62px;
+}
+.profilePicture {
+  width: 70px !important;
+  margin-left: -10px;
+  margin-top: -3px;
+}
+.profilePicture:hover {
+  background-color: transparent !important;
+}

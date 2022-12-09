@@ -1,0 +1,35 @@
+.detailed {
+  padding-top: 80px;
+  margin-left: 540px;
+  text-align: left;
+}
+.tag {
+  color: #409cdd;
+  background-color: #d7efff;
+  margin: 0px 10px;
+  padding: 0px 5px;
+}
+.tagsDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.detailed hr {
+  width: 98%;
+}
+.usersAnswer {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 10px;
+  padding: 15px;
+  width: 98%;
+  max-width: 98%;
+}
+.deleteBTN {
+  margin: 0px 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #c5e5ff;
+  border: 1px solid #62b8ff;
+}
+.deleteBTN:hover {
+  background-color: #aad6fa;
+}

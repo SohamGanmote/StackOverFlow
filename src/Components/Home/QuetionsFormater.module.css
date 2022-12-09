@@ -1,0 +1,18 @@
+.Quetions {
+  margin-top: 20px;
+}
+.eachQuetion {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  margin-top: 20px;
+  max-width: 900px;
+}
+.tags {
+  color: #409cdd;
+  background-color: #d7efff;
+  margin: 0px 10px;
+  padding: 0px 5px;
+}
+.eachQuetion h3 {
+  cursor: pointer;
+}

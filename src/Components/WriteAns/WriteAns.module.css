@@ -1,0 +1,43 @@
+.editProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+  background-color: rgb(235, 235, 235);
+}
+.userProfile {
+  padding: 10px;
+  margin: 15px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.currentProfile {
+  padding: 20px;
+  width: 900px;
+}
+.editProfileForm {
+  margin-top: 10px;
+  text-align: left;
+}
+.editProfileForm textarea {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.editProfileForm textarea {
+  width: 100%;
+  padding: 0px 5px;
+}
+.editProfileForm button {
+  height: 40px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+}
