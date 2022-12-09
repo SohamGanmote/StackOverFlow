@@ -57,13 +57,17 @@ function SearchedUser(props) {
       <div>
         <h2>My Tech Stack</h2>
         <div style={{ marginTop: "20px" }}>
-          {props.sTags.map((tag) => {
-            return (
-              <span className={classes.tags} key={Math.random()}>
-                {tag}
-              </span>
-            );
-          })}
+          {props.sTags.length === 0 ? (
+            <p>No Tags Are Added By User</p>
+          ) : (
+            props.sTags.map((tag) => {
+              return (
+                <span className={classes.tags} key={Math.random()}>
+                  {tag}
+                </span>
+              );
+            })
+          )}
         </div>
         <br />
         {storedUserLoggedInInformation === props.sEmail && (

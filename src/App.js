@@ -23,6 +23,10 @@ function App() {
   const [quetions, setQuetions] = useState([]);
   const usersCollectionRef = collection(db, "users");
   const usersCollectionRef_For_Quetion = collection(db, "ask_quetions");
+  const [displaySideBar, setDisplaySideBar] = useState(true);
+  const [logedin, setLogedin] = useState(false);
+  const [sidebarValue, setSidebarValue] = useState(1);
+  const storedUserLoggedInInformation = localStorage.getItem("isLoggedIn");
   useEffect(function () {
     // This Code To Fetch All The Users Information
     async function getUsers() {
@@ -57,10 +61,6 @@ function App() {
       clickedQueion={setClickedQuetion}
     />
   );
-  const [displaySideBar, setDisplaySideBar] = useState(true);
-  const [logedin, setLogedin] = useState(false);
-  const [sidebarValue, setSidebarValue] = useState(1);
-  const storedUserLoggedInInformation = localStorage.getItem("isLoggedIn");
   const refreshPage = () => {
     window.location.reload();
   };

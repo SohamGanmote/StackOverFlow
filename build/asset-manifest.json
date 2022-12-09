@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/StackOverFlow/static/css/main.cb04da9c.chunk.css",
+    "main.js": "/StackOverFlow/static/js/main.38e5d517.chunk.js",
+    "main.js.map": "/StackOverFlow/static/js/main.38e5d517.chunk.js.map",
+    "runtime-main.js": "/StackOverFlow/static/js/runtime-main.e4e15c71.js",
+    "runtime-main.js.map": "/StackOverFlow/static/js/runtime-main.e4e15c71.js.map",
+    "static/js/2.b765879d.chunk.js": "/StackOverFlow/static/js/2.b765879d.chunk.js",
+    "static/js/2.b765879d.chunk.js.map": "/StackOverFlow/static/js/2.b765879d.chunk.js.map",
+    "index.html": "/StackOverFlow/index.html",
+    "static/css/main.cb04da9c.chunk.css.map": "/StackOverFlow/static/css/main.cb04da9c.chunk.css.map",
+    "static/js/2.b765879d.chunk.js.LICENSE.txt": "/StackOverFlow/static/js/2.b765879d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4e15c71.js",
+    "static/js/2.b765879d.chunk.js",
+    "static/css/main.cb04da9c.chunk.css",
+    "static/js/main.38e5d517.chunk.js"
+  ]
+}

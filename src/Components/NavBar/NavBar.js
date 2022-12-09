@@ -8,12 +8,16 @@ function NavBar(props) {
   const storedUserLoggedInInformation = localStorage.getItem("isLoggedIn");
   useEffect(
     function () {
-      props.UserDatabase.map((findUser) => {
-        if (findUser.uEmail === storedUserLoggedInInformation) {
-          setName(findUser.uName);
-        }
-        return 0;
-      });
+      if (storedUserLoggedInInformation) {
+        props.UserDatabase.map((findUser) => {
+          if (findUser.uEmail === storedUserLoggedInInformation) {
+            setName(findUser.uName);
+          }
+          return 0;
+        });
+      } else {
+        localStorage.setItem("isLoggedIn", "");
+      }
     },
     [props.UserDatabase, storedUserLoggedInInformation]
   );
@@ -69,7 +73,7 @@ function NavBar(props) {
               onChange={buildURL}
             />
           </form>
-          {props.userStatus && (
+          {storedUserLoggedInInformation && (
             <button className={classes.profile} onClick={props.openUser}>
               <img
                 src={`https://avatars.dicebear.com/api/bottts/${name}.svg`}
@@ -80,9 +84,11 @@ function NavBar(props) {
           )}
           <button
             className={classes.login}
-            onClick={props.userStatus ? props.logout : props.login}
+            onClick={
+              storedUserLoggedInInformation !== "" ? props.logout : props.login
+            }
           >
-            {props.userStatus ? "Log out" : "Log in"}
+            {storedUserLoggedInInformation !== "" ? "Log out" : "Log in"}
           </button>
         </div>
       </div>
