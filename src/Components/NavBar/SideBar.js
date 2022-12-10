@@ -22,7 +22,11 @@ function SideBar(props) {
     setTimeout(function () {
       setNavNum(2);
       props.sideValue(2);
-    }, 1500);
+    }, 800);
+    setTimeout(function () {
+      setNavNum(1);
+      props.sideValue(1);
+    }, 1000);
   }, []);
   return (
     <div className={classes.sidebar}>
