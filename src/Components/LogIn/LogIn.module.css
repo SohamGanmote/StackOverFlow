@@ -53,3 +53,26 @@
   font-size: 13px;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .login {
+    text-align: center;
+    width: 100%;
+    height: 88vh;
+    margin-top: 90px;
+    padding-top: 40px;
+  }
+  .login input,
+  .login label {
+    width: 100%;
+  }
+  .SignUp {
+    top: 60%;
+    left: 50%;
+  }
+  .responsiveForgotPass {
+    display: none;
+  }
+}

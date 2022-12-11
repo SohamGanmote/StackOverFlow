@@ -70,7 +70,7 @@ function UserProfile(props) {
       <br />
       <div>
         <h2>My Tech Stack</h2>
-        <div style={{ marginTop: "20px" }}>
+        <div style={{ marginTop: "20px" }} className={classes.responsiveTags}>
           {tags.map((tag) => {
             return (
               <span className={classes.tags} key={Math.random()}>

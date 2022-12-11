@@ -85,3 +85,30 @@
   font-size: 13px;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .infoBox {
+    display: none;
+  }
+  .signupBox {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .signup input,
+  .signup label {
+    width: 100%;
+  }
+  .chakeboxBox {
+    display: none;
+  }
+  .passwordText {
+    display: none;
+  }
+  .signup {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 200px;
+    height: 90vh;
+  }
+}

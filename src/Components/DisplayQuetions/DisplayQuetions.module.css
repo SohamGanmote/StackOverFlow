@@ -33,3 +33,10 @@
 .deleteBTN:hover {
   background-color: #aad6fa;
 }
+@media only screen and (max-width: 600px) {
+  .detailed {
+    padding-top: 0px;
+    margin-left: 0px;
+    padding: 5px 10px;
+  }
+}

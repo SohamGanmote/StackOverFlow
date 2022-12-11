@@ -1,0 +1,16 @@
+.sidebar {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar button {
+  margin: 3px auto;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -54,3 +54,21 @@
   width: 300px;
   margin: auto;
 }
+@media only screen and (max-width: 600px) {
+  .editProfile {
+    display: block;
+    width: 100%;
+  }
+  .currentProfile {
+    height: 100vh !important;
+    width: auto;
+  }
+  .editProfileForm button {
+    width: auto;
+    padding: 5px 10px;
+  }
+  .editProfileForm label,
+  .editProfileForm input {
+    width: 100%;
+  }
+}

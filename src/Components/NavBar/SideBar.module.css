@@ -36,3 +36,8 @@
   border-right: 4px solid #ef9a53;
   margin-top: 5px;
 }
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}

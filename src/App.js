@@ -18,6 +18,7 @@ import DisplayQuetions from "./Components/DisplayQuetions/DisplayQuetions";
 import WriteAns from "./Components/WriteAns/WriteAns";
 import { db } from "./firebase";
 import { collection, getDocs } from "firebase/firestore";
+import ResponsiveNav from "./Components/NavBar/ResponsiveNav";
 function App() {
   const [user, setUser] = useState([]);
   const [quetions, setQuetions] = useState([]);
@@ -214,6 +215,17 @@ function App() {
   return (
     <>
       <NavBar
+        login={setLoginPage}
+        logout={setLogout}
+        displaysidebar={displaySideBar}
+        userStatus={logedin}
+        home={setHomePage}
+        sidevalue={getSideBarValue}
+        relode={sidebarValue}
+        openUser={setUserProfilePage}
+        UserDatabase={user}
+      />
+      <ResponsiveNav
         login={setLoginPage}
         logout={setLogout}
         displaysidebar={displaySideBar}

@@ -1,0 +1,39 @@
+.resPNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  padding: 15px;
+  border-bottom: 2px solid #cecece;
+}
+.nav img {
+  width: 200px;
+}
+.profile {
+  margin-top: 10px;
+}
+.profilePicture {
+  width: 100px !important;
+}
+.login {
+  background-color: #c5e5ff;
+  border: 1px solid #62b8ff;
+  padding: 5px 15px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.menuBTN img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.menuBTN {
+  border: none;
+}
+@media only screen and (min-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

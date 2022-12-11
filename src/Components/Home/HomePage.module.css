@@ -32,3 +32,25 @@
   margin-left: 30px;
   text-align: left;
 }
+@media only screen and (max-width: 600px) {
+  .homePage {
+    width: 100%;
+    padding: 15px;
+    overflow-x: hidden;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .blog {
+    display: none;
+  }
+  .header {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btn {
+    margin: 0px;
+    height: auto;
+  }
+}

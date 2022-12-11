@@ -81,3 +81,25 @@
   padding: 5px 10px;
   margin: 0px 10px;
 }
+@media only screen and (max-width: 600px) {
+  .profile {
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: center;
+    padding: 10px;
+  }
+  .profileInfo {
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .profileEditAndPhoto {
+    flex-direction: column;
+  }
+  .profilePhoto {
+    text-align: center;
+    margin: auto;
+  }
+  .tags {
+    display: block;
+  }
+}

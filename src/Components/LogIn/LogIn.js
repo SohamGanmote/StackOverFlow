@@ -39,7 +39,10 @@ function LogIn(props) {
             <input type="text" id="Email" required />
           </div>
           <div>
-            <label htmlFor="pass">Password</label> <span>Forgot Password?</span>
+            <label htmlFor="pass">Password</label>{" "}
+            <span className={classes.responsiveForgotPass}>
+              Forgot Password?
+            </span>
             <br />
             <input type="password" id="pass" required />
           </div>

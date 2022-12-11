@@ -16,3 +16,8 @@
 .eachQuetion h3 {
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .eachQuetion {
+    width: auto;
+  }
+}

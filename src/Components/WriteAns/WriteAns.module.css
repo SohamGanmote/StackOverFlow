@@ -30,14 +30,27 @@
 .editProfileForm textarea {
   font-size: 20px;
   margin-right: 20px;
-}
-.editProfileForm textarea {
   width: 100%;
   padding: 0px 5px;
 }
+
 .editProfileForm button {
   height: 40px;
   font-size: 20px;
   width: 300px;
   margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .editProfile {
+    display: block;
+    width: 100%;
+  }
+  .currentProfile {
+    height: 100vh !important;
+    width: auto;
+  }
+  .editProfileForm button {
+    width: auto;
+    padding: 5px 10px;
+  }
 }

@@ -79,3 +79,8 @@
 .profilePicture:hover {
   background-color: transparent !important;
 }
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
