@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/StackOverFlow/static/css/main.b114487a.chunk.css",
-    "main.js": "/StackOverFlow/static/js/main.4f21baac.chunk.js",
-    "main.js.map": "/StackOverFlow/static/js/main.4f21baac.chunk.js.map",
+    "main.css": "/StackOverFlow/static/css/main.2a44921c.chunk.css",
+    "main.js": "/StackOverFlow/static/js/main.77171544.chunk.js",
+    "main.js.map": "/StackOverFlow/static/js/main.77171544.chunk.js.map",
     "runtime-main.js": "/StackOverFlow/static/js/runtime-main.e4e15c71.js",
     "runtime-main.js.map": "/StackOverFlow/static/js/runtime-main.e4e15c71.js.map",
-    "static/js/2.e8fa2a91.chunk.js": "/StackOverFlow/static/js/2.e8fa2a91.chunk.js",
-    "static/js/2.e8fa2a91.chunk.js.map": "/StackOverFlow/static/js/2.e8fa2a91.chunk.js.map",
+    "static/js/2.4e12b05f.chunk.js": "/StackOverFlow/static/js/2.4e12b05f.chunk.js",
+    "static/js/2.4e12b05f.chunk.js.map": "/StackOverFlow/static/js/2.4e12b05f.chunk.js.map",
     "index.html": "/StackOverFlow/index.html",
-    "static/css/main.b114487a.chunk.css.map": "/StackOverFlow/static/css/main.b114487a.chunk.css.map",
-    "static/js/2.e8fa2a91.chunk.js.LICENSE.txt": "/StackOverFlow/static/js/2.e8fa2a91.chunk.js.LICENSE.txt"
+    "static/css/main.2a44921c.chunk.css.map": "/StackOverFlow/static/css/main.2a44921c.chunk.css.map",
+    "static/js/2.4e12b05f.chunk.js.LICENSE.txt": "/StackOverFlow/static/js/2.4e12b05f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e4e15c71.js",
-    "static/js/2.e8fa2a91.chunk.js",
-    "static/css/main.b114487a.chunk.css",
-    "static/js/main.4f21baac.chunk.js"
+    "static/js/2.4e12b05f.chunk.js",
+    "static/css/main.2a44921c.chunk.css",
+    "static/js/main.77171544.chunk.js"
   ]
 }
