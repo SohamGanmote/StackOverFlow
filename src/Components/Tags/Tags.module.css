@@ -7,6 +7,21 @@
   margin-top: 20px;
   font-size: 14px;
 }
+@media only screen and (max-width: 1400px) {
+  .Tags {
+    margin-left: 280px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Tags {
+    margin-left: 250px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Tags {
+    margin-left: 200px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .Tags {
     margin-left: 0px;

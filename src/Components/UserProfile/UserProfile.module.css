@@ -81,6 +81,21 @@
   padding: 5px 10px;
   margin: 0px 10px;
 }
+@media only screen and (max-width: 1400px) {
+  .profile {
+    margin-left: 280px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .profile {
+    margin-left: 250px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .profile {
+    margin-left: 200px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .profile {
     margin-left: 0px;

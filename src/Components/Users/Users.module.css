@@ -31,6 +31,21 @@
   margin-right: 20px;
   padding: 5px;
 }
+@media only screen and (max-width: 1400px) {
+  .Users {
+    margin-left: 280px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Users {
+    margin-left: 250px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Users {
+    margin-left: 200px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .Users {
     margin-left: 0px;

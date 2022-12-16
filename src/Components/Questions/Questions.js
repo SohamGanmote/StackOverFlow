@@ -1,5 +1,5 @@
 import Blog from "../Blog/Blog";
-import classes from "./Questions.module.css";
+import classes from "../Home/HomePage.module.css";
 import QuetionsFormater from "../Home/QuetionsFormater";
 function Questions(props) {
   function askQuetion() {
