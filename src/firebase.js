@@ -12,14 +12,3 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth();
-
-// Emenrgency DataBase
-
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCgJuWjnvu46KcIqnKRwKZkuUZ_Z_4jFUw",
-//   authDomain: "sonew-8ed9a.firebaseapp.com",
-//   projectId: "sonew-8ed9a",
-//   storageBucket: "sonew-8ed9a.appspot.com",
-//   messagingSenderId: "571813754036",
-//   appId: "1:571813754036:web:3a5fb9d86295fbbb5c13e1",
-// };
