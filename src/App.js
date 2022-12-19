@@ -142,6 +142,7 @@ function App() {
         UpdateProfile={setUpdateUserProfile}
         UpdateLink={setUpdateLink}
         UpdateTags={setUpdateTags}
+        UserDatabase={user}
       />
     );
   }

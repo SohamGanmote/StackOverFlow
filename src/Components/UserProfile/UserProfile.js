@@ -1,6 +1,8 @@
 import classes from "./UserProfile.module.css";
 import Button from "../UI/Button/Button";
 import { useEffect, useState } from "react";
+import { db } from "../../firebase";
+import { updateDoc, doc } from "firebase/firestore";
 function UserProfile(props) {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
@@ -8,6 +10,7 @@ function UserProfile(props) {
   const [link, setLink] = useState("");
   const [tags, setTags] = useState([]);
   const storedUserLoggedInInformation = localStorage.getItem("isLoggedIn");
+  const [userId, setUserId] = useState();
   useEffect(
     function () {
       props.UserDatabase.map((findUser) => {
@@ -17,12 +20,24 @@ function UserProfile(props) {
           setAboutMe(findUser.uBio);
           setLink(findUser.uLink);
           setTags(findUser.uTags);
+          setUserId(findUser.id);
         }
         return 0;
       });
     },
     [props.UserDatabase, storedUserLoggedInInformation]
   );
+  async function removeTags() {
+    try {
+      const userDoc = doc(db, "users", userId);
+      const newFields = { uTags: [] };
+      await updateDoc(userDoc, newFields);
+      console.log("Firebase Tags Removed ... (From UserProfile.js)");
+    } catch (error) {
+      console.log("Failed To Remove User Tags");
+    }
+    window.location.reload();
+  }
   return (
     <div className={classes.profile}>
       <div className={classes.profileEditAndPhoto}>
@@ -87,6 +102,15 @@ function UserProfile(props) {
         >
           Add Tags
         </span>
+        {tags.length !== 0 && (
+          <span
+            className={classes.tags}
+            onClick={removeTags}
+            style={{ cursor: "pointer", fontWeight: "900" }}
+          >
+            Remove Tags
+          </span>
+        )}
       </div>
     </div>
   );
