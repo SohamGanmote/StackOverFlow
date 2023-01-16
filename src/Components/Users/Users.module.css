@@ -57,6 +57,7 @@
   .userDiv {
     display: block;
     padding: 5px 10px;
+    margin-right: 0px;
   }
   .userProfile {
     margin: 5px 10px;

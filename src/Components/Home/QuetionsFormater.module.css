@@ -16,6 +16,10 @@
 .eachQuetion h3 {
   cursor: pointer;
 }
+.eachTags {
+  word-wrap: break-word;
+  line-height: 30px;
+}
 @media only screen and (max-width: 600px) {
   .eachQuetion {
     width: auto;

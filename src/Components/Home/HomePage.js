@@ -19,10 +19,21 @@ function HomePage(props) {
             Ask Question
           </button>
         </div>
-        <QuetionsFormater
-          quetions={props.all_Quetions}
-          setClickedQuetion={props.clickedQueion}
-        />
+        {props.all_Quetions.length === 0 ? (
+          <p style={{ textAlign: "center" }}>
+            <img
+              src="https://i.stack.imgur.com/kOnzy.gif"
+              alt="lodding"
+              className={classes.lodding}
+              width="100px"
+            />
+          </p>
+        ) : (
+          <QuetionsFormater
+            quetions={props.all_Quetions}
+            setClickedQuetion={props.clickedQueion}
+          />
+        )}
       </div>
       <div className={classes.blog}>
         <Blog />

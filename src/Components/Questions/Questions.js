@@ -14,7 +14,7 @@ function Questions(props) {
     <div className={classes.flex}>
       <div className={classes.Questions}>
         <div className={classes.header}>
-          <h1 style={{ fontWeight: "500" }}>All Questions</h1>
+          <h1 style={{ fontWeight: "500" }}>All Questions&nbsp;&nbsp;</h1>
           <button className={classes.btn} onClick={askQuetion}>
             Ask Question
           </button>

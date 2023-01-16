@@ -24,7 +24,7 @@ function QuetionsFormater(props) {
       {state.map((que) => (
         <div key={que.Q_title} className={classes.eachQuetion}>
           <h3 onClick={quetionsClicked}>{que.Q_title}</h3>
-          <p style={{ marginTop: "10px" }}>
+          <p style={{ marginTop: "10px" }} className={classes.eachTags}>
             Tags :{" "}
             {que.Q_tags.map((tag) => (
               <span className={classes.tags} key={Math.random()}>
