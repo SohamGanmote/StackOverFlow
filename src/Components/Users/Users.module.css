@@ -6,7 +6,9 @@
 .userDiv {
   margin-top: 10px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 13rem;
+  gap: 0.5rem;
 }
 .user {
   margin-right: 10px;
